@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Mikko Kivelä",
   "license": "MIT",
+  "private": true,
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
@@ -12,5 +13,6 @@
     "react": "^16.8.6",
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0"
-  }
+  },
+  "gitHead": "564e7f0e1f9cebe035d59c127f9034b61b9a7652"
 }

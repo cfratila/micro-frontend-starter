@@ -7,7 +7,7 @@ import { History } from 'history';
 
 const ViewC = () => (
   <div>
-    <h1>View C </h1>
+    <h1>View C - Oh</h1>
     <ComponentA />
   </div>
 );
@@ -50,7 +50,7 @@ interface AppBProps {
   history: History;
 }
 
-const AppA = ({ basename, history }: AppBProps) => {
+const AppB = ({ basename, history }: AppBProps) => {
   // Prefix routes with the provided base path
   const prefixedRoutes = prefixRoutes(basename, routes);
   // Add proxy layer to history
@@ -59,4 +59,4 @@ const AppA = ({ basename, history }: AppBProps) => {
   return <Router history={childHistory}>{renderRoutes(prefixedRoutes)}</Router>;
 };
 
-export default AppA;
+export default AppB;

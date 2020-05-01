@@ -1,8 +1,4 @@
-import * as React from 'react';
 import styled from 'styled-components';
-import { withRouter } from 'react-router';
-import { matchRoutes, renderRoutes } from 'react-router-config';
-import Navigation from './navigation';
 
 export const Typography = styled('div')`
   height: 100vh;

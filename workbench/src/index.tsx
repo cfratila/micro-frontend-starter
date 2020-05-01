@@ -21,7 +21,7 @@ const Root = withRouter((props: any) => {
     <Typography>
       <Navigation />
       <Content>
-        <React.Suspense fallback={<div>Loading...</div>}>
+        <React.Suspense fallback={<div>Loading ...</div>}>
           {routeRenderer}
         </React.Suspense>
       </Content>

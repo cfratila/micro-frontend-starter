@@ -21,7 +21,7 @@ const ViewB = () => (
 const Dashboard = () => (
   <ul>
     <li>
-      <Link to="/view-a">View A test 1</Link>
+      <Link to="/view-a">View A test 2</Link>
     </li>
     <li>
       <Link to="/view-b">View B</Link>
